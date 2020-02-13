@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* CoreGTE */
+
+@font-face {
+    font-family:'CoreGTE';
+    font-style: normal;
+    font-weight: 400;
+    src: local("?"),
+         url(../font/CoreGTE4.woff) format('woff'),
+         url(../font/CoreGTE4.otf) format('opentype');
+}
+
+@font-face {
+    font-family:'CoreGTE';
+    font-style: normal;
+    font-weight: 600;
+    src: local("?"),
+         url(../font/CoreGTE6.woff) format('woff'),
+         url(../font/CoreGTE6.otf) format('opentype');
+}
