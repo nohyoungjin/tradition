@@ -18,8 +18,7 @@ SUMMARY :
 .snb .snb_list .snb_nav li:first-child {border-top:1px solid #ddd}
 .snb .snb_list .snb_nav li {border-bottom:1px solid #ddd}
 .snb .snb_list .snb_nav li a {display:block;width:100%;height:70px;padding:0 0 0 30px;font-size:20px;line-height:70px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
-.snb .snb_list .snb_nav li.on a {background:url(../img/common/bul_on.png) no-repeat 265px center;font-weight:700;color:#fff}
-.snb .snb_list .snb_nav li a.on,
+.snb .snb_list .snb_nav li.on a,
 .snb .snb_list .snb_nav li a:hover,
 .snb .snb_list .snb_nav li a:focus {background:url(../img/common/bul_on.png) no-repeat 265px center;font-weight:700;color:#295da8}
 .snb .snb_list .snb_nav li ul {padding:20px 0;border-top:1px solid #7aa2aa}
