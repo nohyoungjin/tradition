@@ -27,7 +27,6 @@ function snb(cate, snb, chk) {
 
 	if ( cate == 'perform' ) {
 
-		str += '	<li><a href="performance.html">공연소개</a></li>';
 		str += '	<li><a href="schedule.html">행사일정</a></li>';
 		str += '	<li><a href="photo_list.html">공연사진</a></li>';
 
@@ -51,6 +50,14 @@ function snb(cate, snb, chk) {
 
 		str += '	<li><a href="guide.html">후원안내</a></li>';
 		str += '	<li><a href="sponsor.html">후원신청</a></li>';
+
+	}
+
+	if ( cate == 'notify' ) {
+
+		str += '	<li><a href="notice_list.html">공지사항</a></li>';
+		str += '	<li><a href="news_list.html">보도자료</a></li>';
+		str += '	<li><a href="review_list.html">공연후기</a></li>';
 
 	}
 
