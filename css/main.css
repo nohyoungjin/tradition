@@ -96,8 +96,8 @@ SUMMARY :
 .app a + a {margin:19px 0 0}
 .app a strong {position:absolute;top:54px;right:70px;font-size:26px}
 
-.app a i {display:inline-block;position:absolute;top:13px;left:40px;width:120px;height:120px;background:url(../img/common/img_common.png) no-repeat -100px -55px}
-.app a i.i02 {width:120px;height:120px;background:url(../img/common/img_common.png) no-repeat -225px -55px}
+.app a i {display:inline-block;position:absolute;top:13px;left:40px;width:120px;height:120px;background:url(../img/common/sp_common.png) no-repeat -100px -55px}
+.app a i.i02 {background:url(../img/common/sp_common.png) no-repeat -225px -55px}
 
 /* 공지사항, 보도자료 */
 

@@ -42,15 +42,15 @@ $(function() {
 	function navi() {
 
 		$('#gnb').on('mouseenter', '> .box > ul > li', function() {
-			if ( $('body').data('device') != 'mobile' ) {
-				$(this).parents('.h_group').stop().animate({'height':'260px'}, 300);
+			if ($('body').data('device') != 'mobile') {
+				$(this).parents('.h_group').stop().animate({'height': '260px'}, 300);
 				$('#gnb .sub_menu').show();
 			}
 		});
 
 		$('.h_group').on('mouseleave', function() {
-			if ( $('body').data('device') != 'mobile' ) {
-				$('#gnb > .box > ul > li').parents('.h_group').stop().animate({'height':'58px'}, 300, function() {
+			if ($('body').data('device') != 'mobile') {
+				$('#gnb > .box > ul > li').parents('.h_group').stop().animate({'height': '58px'}, 300, function() {
 					$('#gnb > .box > ul > li').siblings().children('.sub_menu').hide();
 				});
 			}
@@ -59,17 +59,17 @@ $(function() {
 		// gnb keyboard accessibility
 		
 		$('#gnb').on('focusin', '> .box > ul > li > a', function() {
-			if ( $('body').data('device') != 'mobile' ) {
-				if ( $('.h_group').hasClass('on') == false ) {
-					$(this).parents('.h_group').stop().animate({'height':'260px'}, 300);
+			if ($('body').data('device') != 'mobile') {
+				if ($('.h_group').hasClass('on') == false) {
+					$(this).parents('.h_group').stop().animate({'height': '260px'}, 300);
 					$('#gnb .sub_menu').show();
 				}
 			}
 		}); 
 
 		$(document).on('focus', '.h_group h1 a, .lnb-nav li a, .slick-prev', function() {
-			if ( $('body').data('device') != 'mobile' ) {
-				$('#gnb > .box > ul > li').parents('.h_group').stop().animate({'height':'58px'}, 300, function() {
+			if ($('body').data('device') != 'mobile') {
+				$('#gnb > .box > ul > li').parents('.h_group').stop().animate({'height': '58px'}, 300, function() {
 					$('#gnb > .box > ul > li').siblings().children('.sub_menu').hide();
 				});
 			}
@@ -84,7 +84,7 @@ $(function() {
 		var fixed_offset = $('.h_group').offset();
 
 		$(window).on('scroll', $.throttle(1000 / 15, function() {
-			if ( $(document).scrollTop() > fixed_offset.top ) {
+			if ($(document).scrollTop() > fixed_offset.top) {
 				$('.h_group').addClass('sticky'); 
 			} else {
 				$('.h_group').removeClass('sticky');
@@ -117,7 +117,7 @@ $(function() {
 			} */
 
 			$('#gnb > .box').css('display','block');
-			$(this).next().stop().animate({'right':'0%'}, 300);
+			$(this).next().stop().animate({'right': '0%'}, 300);
 			$('#gnb > .dim').fadeIn();
 			$('.logo').css('z-index','10');
 
@@ -130,7 +130,7 @@ $(function() {
 				$('#gnb > .box > ul > li > .sub_menu > .inner > ul').filter(':not(:animated)').slideUp('fast');
 				$(this).parent().find('> .sub_menu > .inner > ul').filter(':not(:animated)').slideToggle();
 				
-				if ( $(this).parent().hasClass('current') ) {
+				if ($(this).parent().hasClass('current')) {
 					$(this).parent().removeClass('current');
 					return;
 				}
@@ -147,7 +147,7 @@ $(function() {
 			$('body').css('overflow','visible');
 			$('#gnb > .dim').hide();
 
-			$('#gnb > .box').stop().animate({'right':'-80%'}, 300, function() { 
+			$('#gnb > .box').stop().animate({'right': '-80%'}, 300, function() { 
 				$('#gnb > .box').css('display','none');
 			});
 
@@ -162,7 +162,7 @@ $(function() {
 
 	function main_visual_slider() {
 
-		if ( !$('body').hasClass('home') ) { return; }
+		if (!$('body').hasClass('home')) { return; }
 	
 		$('.visual').slick({
 			slidesToShow: 1,
@@ -229,7 +229,7 @@ $(function() {
 
 	function col_photo() {
 
-		if ( !$('body').hasClass('home') ) { return; }
+		if (!$('body').hasClass('home')) { return; }
 	
 		$('.col_photo .item_total').slick({
 			arrows: true,
@@ -244,7 +244,7 @@ $(function() {
 
 	function g_family() {
 
-		if ( !$('body').hasClass('home') ) { return; }
+		if (!$('body').hasClass('home')) { return; }
 
 		$('.g_family').slick({
 			infinite: true,
@@ -311,7 +311,7 @@ $(function() {
 
 		// 연혁 (현재 년도 부분은 제외하고 가장 큰수값 구하기)
 
-		var heights = $('.history_line .right').not('.history_line .right:last-child').map(function () {
+		var heights = $('.history_line .right').not('.history_line .right:last-child').map(function() {
 			return $(this).height();
 		}).get(),
 

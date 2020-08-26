@@ -20,7 +20,7 @@ SUMMARY :
 .snb .snb_list .snb_nav li a {display:block;width:100%;height:70px;padding:0 0 0 30px;font-size:20px;line-height:70px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
 .snb .snb_list .snb_nav li.on a,
 .snb .snb_list .snb_nav li a:hover,
-.snb .snb_list .snb_nav li a:focus {background:url(../img/common/bul_on.png) no-repeat 265px center;font-weight:700;color:#295da8}
+.snb .snb_list .snb_nav li a:focus {background:url(../img/common/bu_on.png) no-repeat 265px center;font-weight:700;color:#295da8}
 .snb .snb_list .snb_nav li ul {padding:20px 0;border-top:1px solid #7aa2aa}
 .snb .snb_list .snb_nav li ul li {border-bottom:none}
 .snb .snb_list .snb_nav li ul li a {width:100%;height:30px;padding:0 0 0 20px;font-size:14px;text-align:left;line-height:30px}
@@ -35,14 +35,14 @@ SUMMARY :
 /* path */
 
 .path {position:absolute;top:22px;right:5px}
-.path:before {display:inline-block;position:relative;top:-21px;left:0;content: "";width:14px;height:13px;padding-right:5px;background:url(../img/common/icon_home.png) no-repeat 0 0}
+.path:before {display:inline-block;position:relative;top:-21px;left:0;content: "";width:14px;height:13px;padding-right:5px;background:url(../img/common/ico_home.png) no-repeat 0 0}
 .path li {display:inline-block;margin:0 0 0 6px;padding:0 0 0 13px;background:url(../img/common/ico_arrow.png) left 2px no-repeat;font-size:15px;font-weight:700;color:#555;line-height:13px;vertical-align:top}
 .path li:first-child {margin:0;padding:0;background:none}
 .path li a {color:#777}
 
 /* h3 */
 
-.conts .inner h3 {position:relative;padding:30px 0 0 22px;font-size:20px;color:#555}
+.conts .inner h3 {position:relative;padding:30px 0 15px 22px;font-size:20px;color:#555}
 .conts .inner h3:before {content: "";position:absolute;top:37px;left:0;width:16px;height:16px;background:#2f67b1;border-radius:50%}
 .conts .inner h3:after {content: "";position:absolute;top:41px;left:4px;width:8px;height:8px;background:#fff;border-radius:50%}
 
@@ -158,10 +158,7 @@ SUMMARY :
 /* 음반 */
 
 .album {max-width:840px;}
-.album h4 {margin-bottom:30px;padding-left:24px;background:url(../img/common/bg_location.gif) no-repeat left 5px;font-size:18px;color:#555}
-.album h4.f_al {margin:30px 0}
-.album h5 {margin-bottom:22px;padding-left:8px;background:url(../img/common/bg_locationinfo.gif) no-repeat 0 center;font-size:18px;font-weight:700;color:#4b7bbb}
-
+.album h4 {margin-bottom:22px;padding-left:8px;background:url(../img/common/bu_part.gif) no-repeat 0 center;font-size:18px;font-weight:700;color:#4b7bbb}
 .album strong {display:block;height:50px;padding:0 0 0 40px;background-color:#737373;font-size:20px;color:#fff;line-height:50px}
 
 .tracks {margin:0 0 40px;padding:30px 0 20px;background-color:#fbfbfb;border:1px solid #ccc;border-width:0 1px 1px 1px}
