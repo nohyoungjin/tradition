@@ -16,7 +16,7 @@ function snb(cate, snb, chk) {
 	str += '	<h2 class="snb_tit"><span>' + uniq[cate] + '</span></h2>';
 	str += '	<ul class="snb_nav">';
 
-	if ( cate == 'troupe' ) {
+	if (cate == 'troupe') {
 
 		str += '	<li><a href="intro.html">관현맹인전통예술단</a></li>';
 		str += '	<li><a href="history.html">예술단주요연혁</a></li>';
@@ -25,35 +25,35 @@ function snb(cate, snb, chk) {
 
 	}
 
-	if ( cate == 'perform' ) {
+	if (cate == 'perform') {
 
 		str += '	<li><a href="schedule.html">행사일정</a></li>';
 		str += '	<li><a href="photo_list.html">공연사진</a></li>';
 
 	}
 	
-	if ( cate == 'work' ) {
+	if (cate == 'work') {
 
 		str += '	<li><a href="album.html">음반</a></li>';
 		str += '	<li><a href="library.html">관련도서</a></li>';	
 
 	}
 
-	if ( cate == 'unit' ) {
+	if (cate == 'unit') {
 
 		str += '	<li><a href="music.html">전통음악교육</a></li>';
 		str += '	<li><a href="camp.html">성공사례</a></li>';
 
 	}
 
-	if ( cate == 'donat' ) {
+	if (cate == 'donat') {
 
 		str += '	<li><a href="guide.html">후원안내</a></li>';
 		str += '	<li><a href="sponsor.html">후원신청</a></li>';
 
 	}
 
-	if ( cate == 'notify' ) {
+	if (cate == 'notify') {
 
 		str += '	<li><a href="notice_list.html">공지사항</a></li>';
 		str += '	<li><a href="news_list.html">보도자료</a></li>';

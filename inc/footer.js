@@ -1,5 +1,5 @@
 str = ''
-str += '<div class="footer">'
+str += '<div id="footer">'
 str += '	<div class="f_wrap">'
 str += '		<div class="f_logo"><img src="img/common/f_logo.png" alt="관현맹인전통예술단"></div>'
 str += '		<div class="info">'
