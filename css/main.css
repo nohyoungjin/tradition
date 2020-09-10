@@ -231,7 +231,7 @@ SUMMARY :
 	.latest .fr p {padding:5px 0 0;font-size:14px}
 
 	.latest ul > li a {font-size:14px}
-	.latest ul > li a:before {top:-8px;width:4px;height:4px;margin-right:6px;border-radius:2px}
+	.latest ul > li a:before {top:-9px;width:4px;height:4px;margin-right:6px;border-radius:2px}
 	.latest .date {font-size:14px}
 
 }
