@@ -214,7 +214,7 @@ html, body {width:100%;height:100%}
 	/* link */
 
 	.link_area {display:block;margin:69px 0 5px}
-	.link_area ul {width:160px;margin:0 auto}
+	.link_area ul {text-align:center}
 	.link_area ul li {display:inline;position:relative;padding:0 12px 0 8px}
 	.link_area ul li a {height:35px;font-size:16px;color:#555;text-align:center;line-height:35px}
 	.link_area ul li .bar {position:absolute;top:50%;right:0;height:12px;width:1px;margin-top:-7px;background-color:#ccc}
