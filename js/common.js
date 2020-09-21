@@ -127,8 +127,8 @@ $(function() {
 
 			if ($('body').data('device') == 'mobile') {
 
-				$('#gnb > .box > ul > li > .sub_menu > .inner > ul').filter(':not(:animated)').slideUp('fast');
-				$(this).parent().find('> .sub_menu > .inner > ul').filter(':not(:animated)').slideToggle();
+				$('#gnb > .box > ul > li > .sub_menu > ul').filter(':not(:animated)').slideUp('fast');
+				$(this).parent().find('> .sub_menu > ul').filter(':not(:animated)').slideToggle();
 				
 				if ($(this).parent().hasClass('current')) {
 					$(this).parent().removeClass('current');
@@ -424,7 +424,7 @@ $.fn.gnbSize = function() {
 		$('#gnb > div.box > ul > li').removeClass('current');
 		$('#gnb .sub_menu').hide();
 		$('#gnb .sub_menu ul').show();
-		$('#gnb .sub_menu > div .inner > ul').show();
+		$('#gnb .sub_menu > div > ul').show();
 		$('#gnb > .dim').remove();
 
 	}
