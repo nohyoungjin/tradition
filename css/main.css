@@ -124,7 +124,7 @@ SUMMARY :
 
 .latest .date {float:right;padding:2px 0 0;font-size:15px;color:#555}
 .latest .date2 {color:#888 !important}
-.latest a.more  {display:inline-block;position:absolute;top:3px;right:0;padding:7px 7px 2px;border:1px solid #ccc}
+.latest a.more  {display:inline-block;position:absolute;top:0;right:0;padding:7px 7px 2px;border:1px solid #ccc}
 
 .latest .news + .news {margin:20px 0 0}
 .latest .news:after {display:block;clear:both;content:''}
