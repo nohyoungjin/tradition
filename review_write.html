@@ -71,36 +71,36 @@
 							</colgroup>
 							<tbody>
 								<tr>
-									<th scope="row"><label for="title">제목</label></th>
-									<td><input type="text" id="title" title="제목" class="w80"></td>
+									<th scope="row">제목</th>
+									<td><input type="text" id="title" class="w100" title="제목"></td>
 								</tr>
 								<tr>
-									<th scope="row"><label for="office_name">작성자</label></th>
+									<th scope="row">작성자</th>
 									<td><input type="text" id="office_name" title="작성자"></td>
 								</tr>
 								<tr>
-									<th scope="row"><label for="password">비밀번호</label></th>
+									<th scope="row">비밀번호</th>
 									<td><input type="password" id="password" title="비밀번호"></td>
 								</tr>
 								<tr class="securityTr">
-									<th scope="row"><label for="security">보안코드</label></th>
+									<th scope="row">보안코드</th>
 									<td>
-										<img src="./img/notify/zmSpamFree.png" id="zsfImg" alt="보안코드를 공백없이 입력해주세요">
-										<button class="speaker" type="button"><img src="./img/notify/btn_speaker.png" alt="음성지원"></button>
-										<button class="reflesh" type="button"><img src="./img/notify/btn_reflesh.png" alt="새로고침"></button>
+										<span class="thumb"><img src="./img/notify/zmSpamFree.png" id="zsfImg" alt="보안문자"></span>
+										<button type="button" class="speaker"><img src="./img/notify/btn_speaker.png" alt="음성지원"></button>
+										<button type="button" class="reflesh"><img src="./img/notify/btn_reflesh.png" alt="새로고침"></button>
 										<input type="text" id="security" title="보안코드">
 									</td>
 								</tr>
 								<tr class="contentTr">
-									<th scope="row"><label for="article_content">내용</label></th>
-									<td><textarea id="article_content" title="게시판내용" class="w100"></textarea></td>
+									<th scope="row">내용</th>
+									<td><textarea id="article_content" class="w100" title="게시판내용"></textarea></td>
 								</tr>
 								<tr class="fileTr">
-									<th><label for="fileName">첨부파일1</label></th>
+									<th>첨부파일1</th>
 									<td>
 										<input type="text" id="file1_name" class="file_input_textbox" readonly="">
 										<div class="file_input_box">
-											<button class="file_input_btn" type="button" alt="file open"><img src="./img/notify/icon_06.png" alt="파일찾기"></button>
+											<button type="button" class="file_input_btn" alt="file open"><img src="./img/notify/icon_06.png" alt="파일찾기"></button>
 											<input type="file" name="att1" id="att1" class="input_file_hidden">
 										</div>
 										<button id="addFile1" class="addFile" name-value="1">파일추가 +</button>

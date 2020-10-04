@@ -20,8 +20,8 @@ function snb(cate, snb, chk) {
 
 		str += '	<li><a href="intro.html">관현맹인전통예술단</a></li>';
 		str += '	<li><a href="history.html">예술단주요연혁</a></li>';
-		str += '	<li><a href="member.html">예술단원소개</a></li>';
-		str += '	<li><a href="contact.html">찾아오시는 길</a></li>';
+		// str += '	<li><a href="member.html">예술단원소개</a></li>';
+		// str += '	<li><a href="contact.html">찾아오시는 길</a></li>';
 
 	}
 
@@ -35,20 +35,20 @@ function snb(cate, snb, chk) {
 	if (cate == 'work') {
 
 		str += '	<li><a href="album.html">음반</a></li>';
-		str += '	<li><a href="library.html">관련도서</a></li>';	
+		// str += '	<li><a href="library.html">관련도서</a></li>';	
 
 	}
 
 	if (cate == 'unit') {
 
 		str += '	<li><a href="music.html">전통음악교육</a></li>';
-		str += '	<li><a href="camp.html">성공사례</a></li>';
+		// str += '	<li><a href="camp.html">성공사례</a></li>';
 
 	}
 
 	if (cate == 'donat') {
 
-		str += '	<li><a href="guide.html">후원안내</a></li>';
+		// str += '	<li><a href="guide.html">후원안내</a></li>';
 		str += '	<li><a href="sponsor.html">후원신청</a></li>';
 
 	}
