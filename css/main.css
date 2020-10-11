@@ -81,6 +81,7 @@ SUMMARY :
 .item .thum {display:block;position:relative;line-height:0}
 .item .thum iframe {display:block;width:100%;height:218px}
 .item .thum img {display:block;width:100%;height:218px}
+
 .item .name {height:94px;padding:20px 0;background-color:#2f67b1;font-size:18px;color:#fff;text-align:center}
 
 .item_total .slick-arrow {display:block;position:absolute;z-index:100000;width:40px;height:40px;text-indent:-9999px;cursor:pointer}
@@ -93,7 +94,7 @@ SUMMARY :
 .app {position:relative;z-index:10000;margin:89px 0 0}
 .app a {display:inline-block;position:relative;width:100%;height:144px;padding:2px 0 0 0;border:1px solid #5582bd;background-color:#fff}
 .app a + a {margin:19px 0 0}
-.app a strong {position:absolute;top:54px;right:70px;font-size:26px}
+.app a strong {position:absolute;top:54px;right:70px;font-size:26px;font-weight:600}
 
 .app a i {display:inline-block;position:absolute;top:13px;left:40px;width:120px;height:120px;background:url(../img/common/sp_common.png) no-repeat -100px -55px}
 .app a i.i02 {background:url(../img/common/sp_common.png) no-repeat -225px -55px}
@@ -108,16 +109,16 @@ SUMMARY :
 .latest .fr .news a {display:block;text-decoration:none}
 
 .latest h3 {padding:0 0 20px;font-size:26px;font-weight:700;color:#2f67b1}
-.latest strong {display:block;overflow:hidden;font-size:18px;white-space:nowrap;text-overflow:ellipsis}
+.latest strong {display:block;overflow:hidden;font-size:18px;font-weight:600;white-space:nowrap;text-overflow:ellipsis}
 
 .latest .fl p {display:block;display:-webkit-box;overflow:hidden;height:48px;margin:10px 0 20px;font-size:16px;color:#555;text-overflow:ellipsis;-webkit-line-clamp:2;-webkit-box-orient:vertical}
-.latest .fr p {display:block;display:-webkit-box;overflow:hidden;height:44px;margin:10px 0 0;font-size:15px;color:#555;text-overflow:ellipsis;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.latest .fr p {display:block;display:-webkit-box;overflow:hidden;height:45px;margin:10px 0 0;font-size:15px;color:#555;text-overflow:ellipsis;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 
 .latest ul {padding:10px 0 0;border-top:1px solid #ccc}
 .latest ul > li {margin-left:0}
 .latest ul > li:first-child {padding-top:10px}
 .latest ul > li a {display:inline-block;width:100%;padding:2px 0;font-size:15px;color:#333}
-.latest ul > li a .title {display:inline-block;overflow:hidden;width:68%;text-overflow:ellipsis;white-space:nowrap}
+.latest ul > li a .tit {display:inline-block;overflow:hidden;width:68%;text-overflow:ellipsis;white-space:nowrap}
 
 .latest ul > li a:before {content:'';display:inline-block;position:relative;top:-8px;width:6px;height:6px;margin-right:10px;background-color:#2f67b1;border-radius:3px}
 
@@ -227,7 +228,7 @@ SUMMARY :
 	.latest .news .fr2 {padding:20px 0 0}
 
 	.latest strong {font-size:18px}
-	.latest .fl p {height:41px;margin:5px 0 20px;font-size:14px}
+	.latest .fl p {height:42px;margin:5px 0 20px;font-size:14px}
 	.latest .fr p {padding:5px 0 0;font-size:14px}
 
 	.latest ul > li a {font-size:14px}

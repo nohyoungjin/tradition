@@ -20,7 +20,7 @@ SUMMARY :
 .snb .snb_list .snb_nav li a {display:block;width:100%;height:70px;padding:0 0 0 30px;font-size:20px;line-height:70px}
 .snb .snb_list .snb_nav li.on a,
 .snb .snb_list .snb_nav li a:hover,
-.snb .snb_list .snb_nav li a:focus {background:url(../img/common/bu_on.png) no-repeat 265px center;font-weight:700;color:#295da8}
+.snb .snb_list .snb_nav li a:focus {background:url(../img/common/bu_on.png) no-repeat 265px center;font-weight:600;color:#295da8}
 .snb .snb_list .snb_nav li ul {padding:20px 0;border-top:1px solid #7aa2aa}
 .snb .snb_list .snb_nav li ul li {border-bottom:none}
 .snb .snb_list .snb_nav li ul li a {width:100%;height:30px;padding:0 0 0 20px;font-size:14px;text-align:left;line-height:30px}
@@ -30,13 +30,13 @@ SUMMARY :
 .conts .inner {position:relative;margin:60px 0 0 50px}
 
 .spot {position:relative;height:60px;margin:0 0 30px;border-bottom:2px solid #ccc;line-height:60px}
-.spot h2 {position:absolute;top:-3px;border-bottom:4px solid #4b82c1;font-size:32px;font-weight:700;color:#000}
+.spot h2 {position:absolute;top:-3px;border-bottom:4px solid #4b82c1;font-size:32px;font-weight:600;color:#000}
 
 /* path */
 
 .path {position:absolute;top:22px;right:5px}
 .path:before {display:inline-block;position:relative;top:-21px;left:0;content: "";width:14px;height:13px;padding-right:5px;background:url(../img/common/ico_home.png) no-repeat 0 0}
-.path li {display:inline-block;margin:0 0 0 6px;padding:0 0 0 13px;background:url(../img/common/ico_arrow.png) left 2px no-repeat;font-size:15px;font-weight:700;color:#555;line-height:13px;vertical-align:top}
+.path li {display:inline-block;margin:0 0 0 6px;padding:0 0 0 13px;background:url(../img/common/ico_arrow.png) left 2px no-repeat;font-size:15px;font-weight:600;color:#555;line-height:13px;vertical-align:top}
 .path li:first-child {margin:0;padding:0;background:none}
 .path li a {color:#777}
 
@@ -52,26 +52,26 @@ SUMMARY :
 .history_area {position:relative;margin-bottom:100px;padding:100px 0 500px}
 
 .history_area span.line {position:absolute;left:50%;top:70px;bottom:0;width:1px;height:100%;margin-left:-1px;border-left:1px solid #ccc}
-.history_area span.line:after {content:'현재';display:block;position:absolute;left:50%;bottom:0;width:60px;height:42px;margin-left:-30px;padding:16px 0 0;border-radius:50%;background:#ccc;font-size:16px;font-weight:700;text-align:center}
+.history_area span.line:after {content:'현재';display:block;position:absolute;left:50%;bottom:0;width:60px;height:42px;margin-left:-30px;padding:16px 0 0;border-radius:50%;background:#ccc;font-size:16px;font-weight:600;text-align:center}
 
 .history_line {overflow:visible;position:relative;margin:0 auto}
 
 .history_line dl.left {padding-right:70px}
 .history_line dl li {position:relative}
-.history_line dl li strong em {font-weight:700 !important}
+.history_line dl li strong em {font-weight:600 !important}
 .history_line dl.left li em {position:absolute;right:0;top:0}
 .history_line dl.left li {padding-right:100px}
 
 .history_line dl.right li em {position:absolute;left:0;top:0}
-.history_line dl li b.thick {font-weight:700}
+.history_line dl li b.thick {font-weight:600}
 .history_line dl.right li {padding-left:100px}
 .history_line dl.right {position:absolute;left:50%;margin-top:-90px;padding-left:70px}
 
 .history_line dl {position:relative;width:50%;padding-top:45px;padding-bottom:90px}
 .history_line dl.no-img {padding-bottom:100px}
-.history_line dl dt {display:block;padding-bottom:14px;font-size:27px;font-weight:bold;color:#333}
+.history_line dl dt {display:block;padding-bottom:14px;font-size:27px;font-weight:600;color:#333}
 
-.history_line ul li {padding:0 0 8px;font-size:15px;line-height:28px;letter-spacing:-1.4px}
+.history_line ul li {padding:0 0 8px;font-size:15px;line-height:28px;letter-spacing:-1.0px}
 .history_line ul li em {font-size:17px;color:#2f67b1}
 .history_line figure {display:block;margin:0;padding-top:30px;transition:all 0.2s ease-in-out}
 .history_line figure img {width:320px;border:1px solid #ccc}
@@ -101,7 +101,7 @@ SUMMARY :
 
 /* 이전, 다음 */
 
-.fc-toolbar button {float:left;margin:13px 20px 0 !important;font-size:15px;font-weight:700;color:#fff;transition:300ms}
+.fc-toolbar button {float:left;margin:13px 20px 0 !important;font-size:15px;color:#fff;transition:300ms}
 .fc-toolbar h2 {float:left;font-size:30px;font-weight:600;color:#2b60ab}
 
 .fc button {width:20px;height:20px !important;border-radius:50% !important;text-indent:-9999px !important}
@@ -127,7 +127,7 @@ SUMMARY :
 /* 달력 꾸미기 */
 
 .fc-row:first-child table {border-top:0 solid transparent}
-#calendar .fc-day-header {height:54px;background:#fff;border-top:3px solid #2c939a;font-size:18px;font-weight:700;color:#333;text-align:center;vertical-align:middle}
+#calendar .fc-day-header {height:54px;background:#fff;border-top:3px solid #2c939a;font-size:18px;font-weight:600;color:#333;text-align:center;vertical-align:middle}
 #calendar .fc-day-header.fc-sun {border-top:3px solid #ee3638}
 .fc-day-header.fc-sat {border-top:3px solid #2f67b1 !important}
 .fc-day-top.fc-other-month {opacity:1}
@@ -158,7 +158,7 @@ SUMMARY :
 /* 음반 */
 
 .album {max-width:840px;}
-.album h4 {margin-bottom:22px;padding-left:8px;background:url(../img/common/bu_part.gif) no-repeat 0 center;font-size:18px;font-weight:700;color:#4b7bbb}
+.album h4 {margin-bottom:22px;padding-left:8px;background:url(../img/common/bu_part.gif) no-repeat 0 center;font-size:18px;font-weight:600;color:#4b7bbb}
 .album strong {display:block;height:50px;padding:0 0 0 40px;background-color:#737373;font-size:20px;color:#fff;line-height:50px}
 
 .tracks {margin:0 0 40px;padding:30px 0 20px;background-color:#fbfbfb;border:1px solid #ccc;border-width:0 1px 1px 1px}
@@ -168,10 +168,10 @@ SUMMARY :
 .tracks .bx_cont {overflow:hidden}
 
 .tracks .bx_cont dl {padding:0 0 0 30px}
-.tracks .bx_cont dl dt {font-size:14px;font-weight:700;color:#333;line-height:24px}
+.tracks .bx_cont dl dt {font-size:14px;font-weight:600;color:#333;line-height:24px}
 .tracks .bx_cont dl dd {padding:0 0 15px 26px;font-size:14px;color:#555;line-height:22px;letter-spacing:-0.5px}
 
-.credit ul li {position:relative;padding:0 0 10px 10px;font-size:15px;font-weight:700;color:#333}
+.credit ul li {position:relative;padding:0 0 10px 10px;font-size:15px;font-weight:600;color:#333}
 .credit ul li:before {content:'';display:block;position:absolute;top:10px;left:0;width:5px;height:1px;background-color:#333}
 .credit ul li span {font-weight:500}
 

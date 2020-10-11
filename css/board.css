@@ -23,7 +23,7 @@ SUMMARY :
 .btn_both {overflow:hidden;clear:both;width:100%;padding:30px 0 40px}
 .btn_both .fl {float:left}
 .btn_both .fr {float:right}
-.btn_both a {display:inline-block;width:86px;height:34px;margin:0 3px;border:1px solid #2b60ab;background-color:#2b60ab;font-size:16px;font-weight:700;color:#fff;line-height:34px;text-align:center}
+.btn_both a {display:inline-block;width:86px;height:34px;margin:0 3px;border:1px solid #2b60ab;background-color:#2b60ab;font-size:16px;color:#fff;line-height:34px;text-align:center}
 .btn_both button {width:86px;height:34px;margin:0 3px;border:1px solid #2b60ab;background-color:#2b60ab;font-size:16px;color:#fff;line-height:1.0}
 
 /* checkbox */
@@ -150,14 +150,15 @@ SUMMARY :
 .list_news li a {display:block}
 .list_news li .img {position:relative;float:left;width:240px;height:150px;margin:0 30px 5px 0}
 .list_news li .img img {width:100%;vertical-align:top}
-.list_news li .desc {overflow:hidden;padding:10px 0 0 0}
+.list_news li .desc {overflow:hidden;padding:8px 0 0}
 
 .list_news li {border-bottom:1px solid #d2d2d2}
 .list_news li:first-child {border-top:2px solid #2f67b1}
 .list_news li:last-child {border-bottom:1px solid #888}
-.list_news li span {display:block;margin:10px 0;font-size:14px;color:#999}
 
-.h-t01 {display:inline;font-size:18px;color:#333}
+.list_news .h-t01 {display:block;overflow:hidden;font-size:18px;font-weight:600;color:#333;white-space:nowrap;text-overflow:ellipsis}
+.list_news li span {display:block;margin:10px 0;font-size:14px;color:#999}
+.list_news li p.txt {display:block;display:-webkit-box;overflow:hidden;height:68px;font-size:15px;color:#555;text-overflow:ellipsis;-webkit-line-clamp:3;-webkit-box-orient:vertical}
 
 /* board view */
 
