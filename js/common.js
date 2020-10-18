@@ -165,13 +165,14 @@ $(function() {
 		if (!$('body').hasClass('home')) { return; }
 	
 		$('.visual').slick({
-			slidesToShow: 1,
-			slidesToScroll: 1,
+			accessibility: false,
 			arrows: true,
+			autoplay: true,
+			autoplaySpeed: 5000,
 			dots: true,
 			fade: true,
-			autoplay: true,
-			autoplaySpeed: 5000
+			slidesToShow: 1,
+			slidesToScroll: 1
 		});
 
 		// visual pause, play (pc)
