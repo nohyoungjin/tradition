@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="path/favicon.ico">
 	<title>관현맹인전통예술단</title>
@@ -51,75 +51,73 @@
 				<!-- //snb -->
 
 				<div id="content" class="conts">
-					<div class="inner">
 
-						<div class="spot">
-							<h2>공연후기</h2>
-							<ul class="path">
-								<li><a href="#">알림마당</a></li>
-								<li>공연후기</li>
-							</ul>
-						</div>
-							
-						<form name="boardWriteForm" method="post">
-
-						<table class="bod_write">
-							<caption>공연후기 글쓰기(제목, 작성자, 비밀번호, 보안코드, 내용, 첨부파일로 구성)</caption>
-							<colgroup>
-								<col class="colw_reaction">
-								<col>
-							</colgroup>
-							<tbody>
-								<tr>
-									<th scope="row">제목</th>
-									<td><input type="text" id="title" class="w100" title="제목"></td>
-								</tr>
-								<tr>
-									<th scope="row">작성자</th>
-									<td><input type="text" id="office_name" title="작성자"></td>
-								</tr>
-								<tr>
-									<th scope="row">비밀번호</th>
-									<td><input type="password" id="password" title="비밀번호"></td>
-								</tr>
-								<tr class="securityTr">
-									<th scope="row">보안코드</th>
-									<td>
-										<span class="thumb"><img src="./img/notify/zmSpamFree.png" id="zsfImg" alt="보안문자"></span>
-										<button type="button" class="speaker"><img src="./img/notify/btn_speaker.png" alt="음성지원"></button>
-										<button type="button" class="reflesh"><img src="./img/notify/btn_reflesh.png" alt="새로고침"></button>
-										<input type="text" id="security" title="보안코드">
-									</td>
-								</tr>
-								<tr class="contentTr">
-									<th scope="row">내용</th>
-									<td><textarea id="article_content" class="w100" title="게시판내용"></textarea></td>
-								</tr>
-								<tr class="fileTr">
-									<th>첨부파일1</th>
-									<td>
-										<input type="text" id="file1_name" class="file_input_textbox" readonly="">
-										<div class="file_input_box">
-											<button type="button" class="file_input_btn" alt="file open"><img src="./img/notify/icon_06.png" alt="파일찾기"></button>
-											<input type="file" name="att1" id="att1" class="input_file_hidden">
-										</div>
-										<button id="addFile1" class="addFile" name-value="1">파일추가 +</button>
-										<span class="memory">[ 파일용량 : 2MB 이내 ]</span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-
-						<div class="btn_both">
-							<div class="fr">
-								<button value="등록" name="enrollBtn" id="enrollBtn" type="submit" title="등록(공연후기 게시물)">등록</button>
-								<button value="목록" name="listBtn" type="submit" title="목록(공연후기 목록)">목록</button>
-							</div>
-						</div>
-
-						</form>
-
+					<div class="spot">
+						<h2>공연후기</h2>
+						<ul class="path">
+							<li><a href="#">알림마당</a></li>
+							<li>공연후기</li>
+						</ul>
 					</div>
+						
+					<form method="post" name="boardWriteForm">
+
+					<table class="bod_write">
+						<caption>공연후기 글쓰기(제목, 작성자, 비밀번호, 보안코드, 내용, 첨부파일로 구성)</caption>
+						<colgroup>
+							<col class="colw_reaction">
+							<col>
+						</colgroup>
+						<tbody>
+							<tr>
+								<th scope="row">제목</th>
+								<td><input type="text" id="title" class="w100" title="제목"></td>
+							</tr>
+							<tr>
+								<th scope="row">작성자</th>
+								<td><input type="text" id="office_name" title="작성자"></td>
+							</tr>
+							<tr>
+								<th scope="row">비밀번호</th>
+								<td><input type="password" id="password" title="비밀번호"></td>
+							</tr>
+							<tr class="securityTr">
+								<th scope="row">보안코드</th>
+								<td>
+									<span class="thumb"><img src="./img/notify/zmSpamFree.png" id="zsfImg" alt="보안문자"></span>
+									<button type="button" class="speaker"><img src="./img/notify/btn_speaker.png" alt="음성지원"></button>
+									<button type="button" class="reflesh"><img src="./img/notify/btn_reflesh.png" alt="새로고침"></button>
+									<input type="text" id="security" title="보안코드">
+								</td>
+							</tr>
+							<tr class="contentTr">
+								<th scope="row">내용</th>
+								<td><textarea id="article_content" class="w100" title="게시판내용"></textarea></td>
+							</tr>
+							<tr class="fileTr">
+								<th>첨부파일1</th>
+								<td>
+									<input type="text" id="file1_name" class="file_input_textbox" readonly="">
+									<div class="file_input_box">
+										<button type="button" class="file_input_btn"><img src="./img/notify/icon_06.png" alt="파일찾기"></button>
+										<input type="file" name="att1" id="att1" class="input_file_hidden">
+									</div>
+									<button id="addFile1" class="addFile" name-value="1">파일추가 +</button>
+									<span class="memory">[ 파일용량 : 2MB 이내 ]</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<div class="btn_both">
+						<div class="fr">
+							<button type="submit" name="enrollBtn" id="enrollBtn" title="등록(공연후기 게시물)" value="등록">등록</button>
+							<button type="submit" name="listBtn" title="목록(공연후기 목록)" value="목록">목록</button>
+						</div>
+					</div>
+
+					</form>
+
 				</div>
 
 			</div>
