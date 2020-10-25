@@ -192,7 +192,7 @@ SUMMARY :
 	.visual_btn {display:none}
 
 	.visual.mobile {display:block}
-	.visual_btn_mo {display:block}
+	.visual_btn_mo {display:block;bottom:44px}
 
 	.visual {height:auto}
 	.visual .slick-track div {height:auto;line-height:0}

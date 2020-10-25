@@ -99,7 +99,7 @@ body {font-family:'CoreGTE','맑은 고딕','Malgun Gothic','돋움','Dotum','Ap
 #gnb > .box {display:block}
 #gnb > .box > ul:after {display:block;clear:both;content:''}
 #gnb > .box > ul > li {position:relative;float:left}
-#gnb > .box > ul > li > a {display:block;padding:0 50px;font-size:18px;font-weight:600;color:#333;cursor:pointer}
+#gnb > .box > ul > li > a {display:block;padding:0 57px;font-size:18px;font-weight:600;color:#333;cursor:pointer}
 
 #gnb > .box > ul > li > a:before {display:block;position:absolute;top:6px;left:0;width:1px;height:20px;background:#ccc;content:''}
 #gnb > .box > ul > li:first-child > a:before {display:none}
