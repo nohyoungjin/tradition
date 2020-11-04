@@ -190,6 +190,7 @@ $(function() {
 				$(this).text('재생');
 				$pauseBtn.addClass('on');
 			}
+
 		});
 
 		// dots 갯수에 따른 visual pause, play 위치조정
