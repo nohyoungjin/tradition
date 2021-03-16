@@ -33,7 +33,8 @@ SUMMARY :
 
 .visual div.d_01,
 .visual div.d_02,
-.visual div.d_03 {background-repeat:no-repeat;background-position:50% 50%}
+.visual div.d_03,
+.visual div.d_04 {background-repeat:no-repeat;background-position:50% 50%}
 
 .visual.mobile div img {width:100%}
 
